@@ -1,6 +1,6 @@
 function ageInDay() {
     var birth = prompt('waht is your age?');
-    var ageInDays = (2020 - birth) * 365;
+    var ageInDays = birth* 365;
     var h1 = document.createElement('h1');
     var ans = document.createTextNode('you are  '+ ageInDays + ' days old');
     h1.setAttribute('id' , 'ageinday');
